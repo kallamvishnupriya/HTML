@@ -1,0 +1,89 @@
+<!-- 
+ difference between href and src tag => 
+ href => points to aresource location that theuser can navigate to or that the browser can load as a stylesheet
+ src => points to a resource that is embedded into the current document-->
+ <!--LIST IN HTML-->
+ <!DOCTYPE html>
+ <html lang="en">
+ <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LISTS</title>
+ </head>
+ <body>
+    <!--types of lists
+    1.ordered list
+    2.un ordered list
+    3.definition list or description list-->
+
+    <ul type="square"><!-- type displays the bullet point size type those are => square,disk,circle-->
+        <li>1.item</li>
+        <li>2.item</li>
+        <li>3.item</li>
+        <li>4.item</li>
+    </ul>
+
+    <ol type="A"><!-- many types to get the roman num ,alfabets,numbers those are => A,a,i,I,1-->
+        <li>html</li>
+        <li>css</li>
+        <li>js</li>
+        <li>react</li>
+    </ol>
+
+    <dl>
+        <dt>
+            title
+        </dt>
+        <dd> 
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore commodi illo distinctio fuga itaque perspiciatis
+            atque necessitatibus quis corporis quas, fugit eaque? Vero architecto autem consequatur doloribus illum, maiores 
+            culpa!
+        </dd>
+    </dl>
+
+
+    <!--nested lists-->
+    <ul>
+        <li>
+            FRONTEND
+            <ol> 
+                <li> html
+                    <dl>
+                        <dt>HTML</dt>
+                        <dd> <span contenteditable="true">html</span> is an hyper text markup language</dd>
+                    </dl>
+                </li>
+                <li> css</li>
+                <li> js</li>
+                <li> react</li>
+            </ol>
+        </li>
+        <li> 
+            BACKEND
+            <ol> 
+                <li>python
+                    <dl>
+                        <dt>PYTHON</dt>
+                        <dd>python is a high level programming language</dd>
+                    </dl>
+                </li>
+                <li>java</li>
+                <li>.net</li>
+                <li>.net</li>
+            </ol>
+        </li>
+        <li>
+            DATABASE
+            <ol>
+                <li>SQL
+                    <dl> 
+                        <dt> mysql</dt>
+                        <dd> sql having rows and colums</dd>
+                    </dl>
+                </li>
+                <li>firebase</li>
+            </ol>
+        </li>
+    </ul>
+ </body>
+ </html>
