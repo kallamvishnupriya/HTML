@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RTC BUSS PASS</title>
+    <body>
+    <center><img src="./images/logo.jpg"   ></center>
+    <fieldset >
+        <legend style="color: blue;">Applicant Details</legend>
+        <form action="./submit.html"  method="get" autocomplete="off"  >
+         <table >
+                <tr >
+                    <td><label for="name">Name <span style="color: red;"><sup>*</sup></span></label><td>
+                    <td><input type="text" name="name" id="name" autofocus required></td>
+                    <td><label for="fgname">Father/Guardian Name <span style="color: red;"><sup>*</sup></span></label><td>
+                    <td><input type="text" name="fgname" id="fgname" autofocus required></td>
+
+                </tr>
+                <tr  >
+                   <td><label for="dob">Date of birth<span style="color: red;"><sup>*</sup></span></label><td>
+                    <td><input type="date" name="dob" id="dob" autofocus></td>
+                     <td><label for="dob">  Gender <span style="color: red;"><sup>*</sup></span></label><td>
+                    <td><input type="radio" name="gender" id="female" autofocus value="femal">Female<input type="radio" name="gender" id="male" value="male" autofocus required>Male</td>
+                </tr>
+                <tr>
+                   <td><label for="age">Age As on:</label><td>
+                    <td><input type="text" style="width: 20px; height: 20px;" name="age" id="age" autofocus>Years(s) <input type="text" style="width: 20px; height: 20px;" name="age" id="age" autofocus>Months(s) <input type="text" style="width: 20px; height: 20px;" name="age" id="age" autofocus>Days(s)</td>
+                   <td><label for="adhar">Aadhar No<span style="color: red;"><sup>*</sup></span></label><td>
+                    <td> <input type="text" name="adhar" id="adhar" autofocus maxlength="12" minlength="12" required></td>
+                
+                    
+                </tr>
+                <tr  >
+                <td><label for="Whatsapp">WhatsApp No<span style="color: red;"><sup>*</sup></span></label><td>
+                    <td><input type="text" name="Whatsapp" id="Whatsapp" autofocus required></td>
+                </tr>
+                <tr >
+                    <td><label for="photo">Photo<span style="color: red;"><sup>*</sup></span></label><td>
+                    <td><input type="file" name="photo" id="photo" autofocus required></td>
+                    <td><label for="gmail">E-Mail Id<span style="color: red;"><sup>*</sup></span></label><td>
+                    <td><input type="email" name="gmail" id="gmail" autofocus required></td>
+                </tr>
+              
+            </table>
+     
+    </fieldset>&nbsp;&nbsp;
+    <fieldset>
+        <legend style="color: blue;"> Residential Details</legend>
+        <table >
+            <tr>
+                 <td><label for="adress">Applicant Adress<span style="color: red;"><sup>*</sup></span></label></td>
+                <td> <textarea name="adress" id="adress autofocus" ></textarea> </td>
+                <td><label for="district">District<span style="color: red;"><sup>*</sup></span></label>
+            <td> <select style="width: 180px;" name="district" id="district">
+                <option value="Hyd">Hyderabad</option>
+                <option value="nalgonda">Nalgonda</option>
+                 <option value="medak">Medak</option>
+                 <option value="nirmal">Nirmal</option>
+                  <option value="Mulugu">Mulugu</option>
+             </select>  </td>
+            </tr>
+            <tr>
+             <td><label for="mandal">Mandal<span style="color: red;"><sup>*</sup></span></label>
+            <td> <select style="width: 180px;" name="mandal" id="mandal">
+                <option value="charminar">Charminar</option>
+                <option value="Ameerpet">Ameerpet</option>
+                <option value="Khairatabad ">Khairatabad</option>
+                 <option value="Nampally ">Nampally</option>
+                  <option value="charminar ">Charminar</option>
+                </select>  </td>
+                <td><label for="village">Village<span style="color: red;"><sup>*</sup></span></label>
+            <td> <select style="width: 180px;" name="mandal" id="mandal">
+                <option value="Hyd">Hyderabad</option>
+                 <option value="charminar">Charminar</option>
+                <option value="Ameerpet">Ameerpet</option>
+                <option value="Khairatabad ">Khairatabad</option>
+                 <option value="Nampally ">Nampally</option>
+                  <option value="charminar ">Charminar</option>
+
+  
+            </tr>
+            <tr>
+                   <td><label for="pincode">Pincode<span style="color: red;"><sup>*</sup></span></label>
+                    <td> <input type="text" name="pincode" id="pincode" autofocus maxlength="5" minlength="5"></td>
+            </tr>
+    
+    
+        </table>
+        </fieldset>&nbsp;&nbsp;
+        <fieldset>
+          <legend style="color: blue;">Pass Type Details</legend>
+        
+        <table >
+            <tr>
+                          <td><label for="city">City<span style="color: red;"><sup>*</sup></span></label>
+                 <td> <select style="width: 180px;" name="city" id="city">
+                   <option value="Hyd">Hyderabad</option>
+                   <option value="nalgonda">Nalgonda</option>
+                   <option value="medak">Medak</option>
+                  <option value="nirmal">Nirmal</option>
+                <option value="Mulugu">Mulugu
+
+             </select>  </td>
+            </tr>
+            <tr>
+                          <td><label for="Pass Type">PassType<span style="color: red;"><sup>*</sup></span></label>
+                 <td> <select style="width: 180px;" name="PassType" id="PassType">
+                   <option value="gen">General</option>
+                   <option value="stu pass">Student Buss pass</option>
+                   
+
+             </select>  </td>
+            </tr>
+            </table>
+
+        </fieldset>&nbsp;&nbsp;
+
+        <fieldset>
+       
+          <legend style="color: blue;">Mode of Payment& Pass Collection</legend>
+        
+        <table>
+            <tr>
+                          <td><label for="mode">Payment Mode<span style="color: red;"><sup>*</sup></span></label>
+                 <td> <select style="width: 180px;" name="mode "id="mode">
+                   <option value="upi">Upi</option>
+                   <option value="CARD">Card</option>
+                   <option value="cash">Cash</option>
+                  <option value="net">Net Banking</option>
+               
+
+             </select>  </td>
+            </tr>
+            <tr>
+                          <td><label for="Del mode">Pass Delivery Mode<span style="color: red;"><sup>*</sup></span></label>
+                 <td> <select style="width: 180px;" name="PassType" id="PassType">
+                   <option value="home">Home</option>
+                   <option value="onl">Online</option>
+                    <option value="onl">Offline</option>
+                     <option value="onl">Office</option>
+                   
+
+             </select>  </td>
+            </tr>
+             <tr>
+                          <td><label for="mode">Center at Which<br> you want to collect<br> Pass<span style="color: red;"><sup>*</sup></span></label>
+                 <td> <select style="width: 180px;" name="mode "id="mode">
+                    <option value="Hyd">Hyderabad</option>
+                   <option value="nalgonda">Nalgonda</option>
+                   <option value="medak">Medak</option>
+                  <option value="nirmal">Nirmal</option>
+                   <option value="Mulugu">Mulugu
+
+                   
+               
+
+             </select>  </td>
+
+            </table>
+        </fieldset>&nbsp;&nbsp;
+        <center><img src="./images/capcha.jpg"><br>
+        <input type="text"  style="width:250px ;" name="captcha" autofocus maxlength="6" minlength="6">&nbsp;&nbsp;&nbsp;&nbsp;
+               <br>
+            &nbsp;&nbsp;&nbsp;&nbsp;
+
+        <button type="submit">Submit</button>
+   
+</head>
+    
+</body>
+</html>
